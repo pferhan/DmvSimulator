@@ -19,7 +19,15 @@ public class DmvSimulator {
                 startNum = startNum + 1;
             }
         }
+        
+        int correctPaperwork = (int) (Math. random() * 100);
 
-        System.out.println("Thank you for waiting we really appreciate your patience but get out of the DMV and don't come back until you have the required paperwork<3 have a great day! muahahahahahahahaha");
+        if(correctPaperwork == 16)
+        {
+            System.out.println("Hey!!!! Thanks so much for having the correct paperwork! You wouldn't believe how many people wait all this time and then get it wrong. You're all set!!");
+        } else {
+            System.out.println("Thank you for waiting we really appreciate your patience but get out of the DMV and don't come back until you have the required paperwork<3 have a great day! muahahahahahahahaha");
+        }    
+
     }
 }
