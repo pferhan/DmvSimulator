@@ -20,6 +20,6 @@ public class DmvSimulator {
             }
         }
 
-        System.out.println("Thank you for waiting we really appreciate your patience but get out of the DMV and don't come back until you have the required paperwork<3 have a great day!");
+        System.out.println("Thank you for waiting we really appreciate your patience but get out of the DMV and don't come back until you have the required paperwork<3 have a great day! muahahahahahahahaha");
     }
 }
