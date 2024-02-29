@@ -2,7 +2,7 @@ public class DmvSimulator {
     public static void main(String[] args) {
         System.out.println("Welcome to the DMV!");
 
-        int assignedNum = (int) (Math. random() * 100);
+        int assignedNum = (int) (Math. random() * 200);
 
         System.out.println("Your number is " + assignedNum);
 
@@ -12,7 +12,7 @@ public class DmvSimulator {
         {
             System.out.println(startNum);
 
-            if (startNum == 100)
+            if (startNum == 200)
             {
                 startNum = 1;
             } else {
